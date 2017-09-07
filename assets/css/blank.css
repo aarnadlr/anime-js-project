@@ -1,0 +1,78 @@
+html, body{
+  font-family: 'Inconsolata', monospace;
+  font-weight: normal;
+  background-color: #061633;
+/*  margin: 30px;*/
+}
+
+h1 {
+  font-weight: normal;
+  font-size: 4rem;
+  color: white;
+}
+
+h2 {
+  font-weight: normal;
+  font-size: 2rem;
+  /*color:#1258a2;*/
+}
+
+.color1 {
+  color: #1164ff;
+}
+.color2 {
+  color: #00e9ff;
+}
+
+
+#boxes {
+  width: 80%;
+  margin: auto;
+  text-align: center;
+}
+
+#btns {
+  padding: 20px;
+  background-color: #f4f4f4;
+  margin-bottom: 20px;
+}
+
+button {
+  background-color: white;
+  padding: 5px 10px;
+  border:0;
+}
+
+.fa {
+  font-size: 30px;
+}
+
+.fa-play-circle {
+  color: green;
+}
+
+.fa-pause-circle {
+  color:red;
+}
+
+.box {
+  position: relative;
+  width: 100px;
+  height: 100px;
+  margin: 4px;
+  display: inline-block;
+}
+
+.red {
+  background-color: red;
+}
+.blue {
+  background-color: blue;
+}
+.green {
+  background-color: green;
+}
+.yellow {
+  background-color: yellow;
+}
+
